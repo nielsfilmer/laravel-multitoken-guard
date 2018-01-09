@@ -1,0 +1,32 @@
+{
+    "name": "nielsfilmer/laravel-multitoken-guard",
+    "description": "A Laravel guard for authenticating users through a separate api tokens table",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Filmer",
+            "email": "n.filmer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.*",
+        "illuminate/database": "5.*",
+        "illuminate/http": "5.*",
+        "illuminate/auth": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NielsFilmer\\": "src/NielsFilmer"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NielsFilmer\\MultiTokenGuard\\MultiTokenGuardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
