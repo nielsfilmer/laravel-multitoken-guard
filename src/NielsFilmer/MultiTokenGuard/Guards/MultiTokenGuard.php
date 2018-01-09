@@ -1,12 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: filme
- * Date: 1/9/2018
- * Time: 14:28
- */
-
-namespace NielsFilmer\MultiTokenGuard\Guards;
+<?php namespace NielsFilmer\MultiTokenGuard\Guards;
 
 
 use Illuminate\Auth\TokenGuard;
